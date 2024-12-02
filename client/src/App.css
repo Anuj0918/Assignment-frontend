@@ -1,0 +1,158 @@
+/* Container for the entire form */
+.form-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #f7f7f7, #e6e9ff);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-container h1 {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Progress bar */
+.progress-bar {
+  height: 10px;
+  border-radius: 5px;
+  background-color: orangered; /* Progress bar color */
+  transition: width 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+/* Dropdown selector styling */
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #f7f7f7;
+  font-family: "Arial", sans-serif;
+}
+
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  border-color: #4caf50; /* Focus color */
+  outline: none;
+}
+
+/* Error message styling */
+.error {
+  color: #ff4d4d; 
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #4caf50; 
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #45a049; /* Hover color */
+}
+
+/* Data table styling */
+.data-table {
+  margin-top: 30px;
+}
+
+.data-table h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+  font-family: "Arial", sans-serif;
+}
+
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.data-table th {
+  background: #4caf50; /* Table header background */
+  color: white;
+  text-transform: uppercase;
+}
+
+.data-table td {
+  background: #f9f9f9;
+}
+
+.data-table tr:hover td {
+  background: #eaf8e6; /* Row hover effect */
+}
+
+/* Action buttons (Edit/Delete) */
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.edit-btn {
+  background: #2196f3; /* Edit button */
+  color: white;
+}
+
+button.delete-btn {
+  background: #ff4d4d; /* Delete button  */
+  color: white;
+}
